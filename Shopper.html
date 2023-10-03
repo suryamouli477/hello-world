@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopper</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <style>
+        header{
+            font-size: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            justify-content: space-between;
+            padding: 15px;
+        }
+        .tittle{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        nav span{
+            margin-right: 15px;
+        }
+        .cart-count{
+            background-color: red;
+            color: white;
+            padding: 3px;
+            width: 15px;
+            display: inline-block;
+            border-radius: 25px;
+            text-align: center;
+        }
+        article{
+            background-color: black;
+            text-align: center;
+            color: white;
+            font-size: 20px;
+            padding: 20px;
+        }
+        .bi-lightning-fill{
+            color: gold
+        }
+        section{
+            width: 2000px;
+            height: 1500px;
+        }
+        .a{
+        display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+        width: 30px;
+        height: 40px;
+        margin-top: 20px;
+        text-align: center;
+        
+        }
+        img{
+            width: 450px;
+        }
+        .container{
+            position: relative;
+            text-align: center;
+            height: 450px;
+            
+        }
+        .b{
+            position: absolute;
+            top: 380px;
+            left: 220px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 40px;
+        }
+        .c{
+            position: absolute;
+            top: 380px;
+            left: 660px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 40px;
+
+        }
+        .d{
+            position: absolute;
+            top: 380px;
+            left: 1050px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 40px;
+        
+        }
+        .e{
+            position: absolute;
+            top: 530px;
+            left: 1050px;
+            font-weight: bold;
+            text-align: center;
+            font-size: 20px;
+            border: 1px solid white;
+            
+
+        }
+        footer
+        {
+            display: grid;
+            grid-template-columns:  2.4fr 2.4fr 2.4fr 2.4fr 2.4fr;
+            padding: 150px;
+            background-color: black;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 20px;
+            height: 800px;
+           
+        }
+        
+        .tittle
+        {
+            font-size: 30px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .footer-tittle
+        {
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: 20px;
+
+        }
+        .footer-tittle~span
+        {
+            display: block;
+            margin-bottom: 15px;
+
+        }
+     aside span
+     {
+        margin-right: 5px;
+        font-size: 20px;
+
+     }
+     section
+     {
+        display: flex;
+        flex-direction: row;
+        width: 500px;
+     }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <span class="tittle">Shopper.</span>
+        </div>
+        <div>
+            <nav>
+                <span>Home</span>
+                <span>Catlog</span>
+                <span>Shop</span>
+                <span>Pages</span>
+                <span>Blog</span>
+                <span>Docs</span>
+            </nav>
+        </div>
+        <div><nav>
+            <span class="bi bi-person"></span>
+            <span class="bi bi-search"></span>
+            <span class="bi bi-heart"></span>
+            <span class="bi bi-cart3"><span class="cart-count"><sup>2</sup></span></span>
+        </nav></div>
+    </header>
+    <article>
+        <span class="bi bi-lightning-fill"></span><span> HAPPY HOLIDAY DEALS ON EVERYTHING</span><span class="bi bi-lightning-fill"></span>
+    </article>
+    <section>
+        <div class="a">
+        <span> <img  class="container" src="C:\Users\Admin\Desktop\kids.jpg" alt=""> <span style="color: beige;" class="b">kids </span></span>
+        <span><img src="C:\Users\Admin\Desktop\men.jpg" alt="" class="container"> <span style="color: beige;" class="c">Men</span></span>
+        <span><img src="C:\Users\Admin\Desktop\shopper women.jpg" alt="" class="container"> <span style="color: beige;" class="d">Women</span><span><nav  class="fal fa-arrow-alt-right e"  >Shop Women</nav></span></span>
+        </div>
+    </section>
+    <footer>
+    
+        <div>
+            <div class="tittle">Shopper.</div>
+            <aside>
+                <span class="bi bi-facebook"></span>
+                <span class="bi bi-twitter"></span>
+                <span class="bi bi-instagram"></span>
+                <span class="bi bi-youtube"></span>
+                <span class="bi bi-linkedin"></span>
+            </aside>
+        </div>
+        
+        <div >
+            
+            <div class="footer-tittle">Support</div>
+            <span>Contact us</span>
+            <span>FAQs</span>
+            <span>Size guide</span>
+            <span>Shipping and return</span>
+        </div>
+        <div >
+        <div class="footer-tittle">shop</div>
+        <span>mens shopping</span>
+        <span>womens shopping</span>
+        <span>kids shopping</span>
+        <span>discounts</span>
+    </div>
+    <div>
+        <div class="footer-tittle">company</div>
+        <span>our story</span><span>carriers</span><span>terms and conditions</span><span>privacy and cookie policy</span>
+    </div>
+<div>
+    <div class="footer-tittle">contact</div>
+    <span>1-202-5555-0105</span><span>1-202-5555-0106</span><span>shopper123@gmail.com</span>
+</div>
+
+
+    </footer>
+    
+</body>
+</html>

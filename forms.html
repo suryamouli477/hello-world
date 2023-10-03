@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms</title>
+    <style>
+        div{
+            background: greenyellow;
+            border-radius: 15px;
+            padding: 15px;
+            margin: 15px;
+            font-weight: bold;
+        }
+        legend{
+            font-weight: bold;
+            font-size: large;
+            
+        }
+    
+        
+    </style>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>personal information</legend>
+            <div>
+        <label for="tx">Name:</label>
+        <input type="text" id="tx" placeholder="enter you name" name="name"> <br><br>
+        <label for="em">email:</label>
+        <input type="email" id="em" placeholder="enter u r email"><br><br>
+        <label for="ps">password:</label>
+        <input type="password" id="ps" ><br><br>
+        <label for="d">DOB</label>
+        <input type="date" name="" id="d"><br><br>
+        <input type="radio" name="gender" id="gn">
+        <label for="gn">male</label>
+        <input type="radio" name="gender" id="fm">
+        <label for="fm">female</label>
+        <input type="radio" name="gender" id="od">
+        <label for="od">Others</label>
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Skills</legend>
+        <input type="checkbox" name="html" id="ht">
+        <label for="ht">Html</label>
+        <input type="checkbox"name="css" id="cs">
+        <label for="cs">css</label>
+        <input type="checkbox" name="js" id="j">
+        <label for="j">js</label><br><br>
+    </fieldset>
+        <label for="">Time:</label>
+        <input type="time" name="" id=""><br><br>
+        <label for="">Datetime:</label>
+        <input type="datetime-local"> <br><br>
+        <label for="">phone no:</label>
+        <input type="tel"> <br><br>
+        <input type="file" name="" id=""> <br><br>
+        <label for="">image:</label>
+         <input type="image"><br><br>
+         <input type="reset" value="reset">
+        <input type="submit" value="submit">
+
+  
+
+    </form>
+</body>
+</html>
